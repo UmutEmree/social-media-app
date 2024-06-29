@@ -10,8 +10,8 @@ const Post = () => {
           <Image
             src="https://images.pexels.com/photos/39866/entrepreneur-startup-start-up-man-39866.jpeg"
             alt="profile"
-            width={40}
-            height={40}
+            width={1200}
+            height={800}
             className="rounded-full w-10 h-10 object-cover"
           />
           <span className="font-medium">Umut Emre</span>
@@ -26,6 +26,7 @@ const Post = () => {
             fill
             className="object-cover rounded-md"
             alt="Photo"
+            sizes="50"
           />
         </div>
         <p>

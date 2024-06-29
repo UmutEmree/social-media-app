@@ -17,6 +17,8 @@ const AddPost = () => {
         {/* Text Input */}
         <div className="flex gap-4">
           <textarea
+          name="desc"
+          id="desc"
             placeholder="What do you think?"
             className="flex-1 bg-slate-100 rounded-lg p-2"
           ></textarea>
